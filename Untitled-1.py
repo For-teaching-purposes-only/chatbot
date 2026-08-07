@@ -64,7 +64,7 @@ def chatbot_romantico():
             resposta = random.choice(poemas_curtos)
             print(f"AmorBot:\n{resposta} ")
             
-        elif any(palavra in entrada for palabra in ["oi", "olá", "ola", "tudo bem", "bom dia", "boa tarde", "boa noite"]):
+        elif any(palavra in entrada for palavra in ["oi", "olá", "ola", "tudo bem", "bom dia", "boa tarde", "boa noite"]):
             print("AmorBot: Olá, meu bem! É sempre uma alegria conversar com você. Como está seu coração hoje?")
             
         elif any(palavra in entrada for palavra in ["te amo", "amo você", "gosto de você"]):
